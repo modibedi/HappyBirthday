@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    tools:context="com.example.ekasi.happybirthday.HappyBirthdayCard"
+    android:background="#9C27B0">
+
+
+    <ImageView
+        android:src="@drawable/happybirthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="HAPPY BIRTHDAY TO YOU!"
+        android:textAlignment="center"
+        android:textColor="#EF6C00"
+        android:background="#F3E5F5"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="HOPE YOU WILL HAVE A FANTASTIC DAY!"
+        android:textAlignment="center"
+        android:textColor="#E65100"
+        android:background="#E1BEE7"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="ENJOY YOUR DAY!"
+        android:textAlignment="center"
+        android:textColor="#E65100"
+        android:background="#CE93D8"/>
+
+
+</LinearLayout>
